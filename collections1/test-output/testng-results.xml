@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T03:01:40Z" name="Default suite" finished-at="2022-02-10T03:01:41Z" duration-ms="968">
+    <groups>
+    </groups>
+    <test started-at="2022-02-10T03:01:40Z" name="Default test" finished-at="2022-02-10T03:01:41Z" duration-ms="968">
+      <class name="collections1.DataDriven_UsingHashMap">
+        <test-method signature="data1(java.util.Map)[pri:0, instance:collections1.DataDriven_UsingHashMap@5c45d770]" started-at="2022-02-10T03:01:41Z" name="data1" data-provider="data" finished-at="2022-02-10T03:01:41Z" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Password1, UserName=UserName1, DOB=DOB1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data1 -->
+        <test-method signature="data1(java.util.Map)[pri:0, instance:collections1.DataDriven_UsingHashMap@5c45d770]" started-at="2022-02-10T03:01:41Z" name="data1" data-provider="data" finished-at="2022-02-10T03:01:41Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Password2, UserName=UserName2, DOB=DOB2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data1 -->
+        <test-method signature="data1(java.util.Map)[pri:0, instance:collections1.DataDriven_UsingHashMap@5c45d770]" started-at="2022-02-10T03:01:41Z" name="data1" data-provider="data" finished-at="2022-02-10T03:01:41Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Password4, UserName=UserName3, DOB=DOB3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data1 -->
+      </class> <!-- collections1.DataDriven_UsingHashMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
